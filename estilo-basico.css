@@ -2,7 +2,9 @@ body{
     background-color: rgb(113, 112, 106);
 }
 
-
+ul {
+    padding : 0;
+}
 
 header h1{
     text-align: center;
@@ -39,4 +41,27 @@ nav ul li a{
 .img-pie{
     width: 20%;
 }
+
+
+.producto{
+    width: 45%;
+}
+
+.producto img{
+    width: 100%;
+}
+
+.producto ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.producto ul li a{
+    text-decoration: none;
+}
+
+.producto ul li h4{ 
+    display: inline;
+}
+
 
