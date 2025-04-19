@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(113, 112, 106);
+    background-color: rgb(217, 209, 165);
 }
 
 ul {
@@ -14,12 +14,13 @@ header h3{
     text-align: center;
 }
 
-
+/* 
 nav ul{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-}
+    justify-content: space-around; 
+} 
+*/
 
 nav ul li{
     list-style: none;
@@ -33,14 +34,14 @@ nav ul li a{
     
 }
 
-.container-img{
+/* .container-img{
     display: flex;
     justify-content: space-around;
-}
+} */
 
-.img-pie{
+/* .img-pie{
     width: 20%;
-}
+} */
 
 
 .producto{

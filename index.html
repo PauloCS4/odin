@@ -5,141 +5,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido a Odín</title>
-    <link rel="stylesheet" href="./estilo-basico.css">
+
+    <!-- Estilo CSS básico, para ir viendo los elementos, reemplazable, removible. -->
+    <!-- <link rel="stylesheet" href="./estilo-basico.css"> -->
+
+    <!--Link CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <h1>Odín</h1>
-        <h3>Guitarras y Bajos</h3>
+    <header class="container-fluid">
+        <h1 class="text-center">Odín</h1>
+        <h3 class="text-center">Guitarras y Bajos</h3>
         <nav>
-            <ul>
-                <li>
-                    <a href="#">Bienvenido</a>
+            <ul class="nav justify-content-center nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Bienvenido</a>
                 </li>
-                <li>
-                    <a href="#">Tienda</a>
+                <li class=" nav-item">
+                    <a class="nav-link" href="./pages/tienda.html">Tienda</a>
                 </li>
-                <li>
-                    <a href="#">Soporte</a>
+                <li class=" nav-item">
+                    <a class="nav-link" href="./pages/soporte.html">Soporte</a>
                 </li>
-                <li>
-                    <a href="#">Contacto</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                 </li>
+
             </ul>
         </nav>
-        <section class="container-img">
-            <img src="./assets/marca-odin/gibson.png" alt="guitarra tipo gibson" class="img-pie">
-            <img src="./assets/marca-odin/mascota.png" alt="Mascota de la marca, vikingo con guitarra" class="img-pie">
-            <img src="./assets/marca-odin/fender.png" alt="Guitarra tipo fender" class="img-pie">
+        <section class="row">
+            <div class="col-sm-4"></div>
+            <!-- <img class="col-sm-3" src="./assets/marca-odin/gibson.png" alt="guitarra tipo gibson" class="img-pie"> -->
+            <img class="col-sm-4" src="./assets/marca-odin/mascota.png" alt="Mascota de la marca, vikingo con guitarra"
+                class="img-pie">
+            <!-- <img class="col-sm-3" src="./assets/marca-odin/fender.png" alt="Guitarra tipo fender" class="img-pie"> -->
+            <div class="col-sm-4"></div>
         </section>
 
     </header>
-    <main>
-        <article>
-            <h3>
+    <main class="container-fluid text-center">
+
+        <article class="row mt-4 fade-in">
+            <p class="col-sm-12 fs-5">
                 Desata tu pasión por el rock con nuestras guitarras eléctricas hechas a mano.
                 Inspiradas en los modelos clásicos que hicieron historia, cada guitarra es una
                 obra maestra única, creada con precisión y pasión. Desde riffs poderosos hasta
                 solos emotivos, nuestras guitarras te permiten expresar tu estilo y conectar
                 con la esencia del rock.
-
-            </h3>
+            </p>
         </article>
-        <section>
-            <h2>
-                Productos destacados
-            </h2>
 
-            <article class="producto">
-                <img src="./assets/productos/grin.webp" alt="Guitarra electrica verde">
-                <ul>
-                    <li>
-                        <h4>Duende Verde</h4>
-                    </li>
-                    <li>
-                        <a href="#">Ficha técnica</a>
-                    </li>
-                    <li>
-                        <a href="#">Comprar</a>
-                    </li>
-                </ul>
-            </article>
+        <section class="container-fluid">
 
-            <article class="producto">
-                <img src="./assets/productos/folk.webp" alt="Guitarra acústica">
-                <ul>
-                    <li>
-                        <h4>Canto Druida</h4>
-                    </li>
-                    <li>
-                        <a href="#">Ficha técnica</a>
-                    </li>
-                    <li>
-                        <a href="#">Comprar</a>
-                    </li>
-                </ul>
-            </article>
+            <div class="row text-center my-4">
+                <h2 class="display-3 fw-bold text-primary">
+                    Destacados
+                </h2>
+                <p class="text-muted">Descubre lo mejor que tenemos para ti</p>
+            </div>
 
+            <!--Espacio para los cards de productos-->
+            <div class="row justify-content-between">
 
-            <article class="producto">
-                <img src="./assets/productos/paul.webp" alt="Guitarra acústica">
-                <ul>
-                    <li>
-                        <h4>Paulista</h4>
-                    </li>
-                    <li>
-                        <a href="#">Ficha técnica</a>
-                    </li>
-                    <li>
-                        <a href="#">Comprar</a>
-                    </li>
-                </ul>
-            </article>
+                <!--producto-1 -->
+                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/productos/grin.webp" class="card-img-top" alt="Guitarra Verde">
+                        <div class="card-body">
+                            <h5 class="card-title">Duende Verde</h5>
+                            <p class="card-text">
+                                Inspirada en el modelo SG de Gibson, pero con electronica moderna.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
 
-            <article class="producto">
-                <img src="./assets/productos/nomad.webp" alt="Guitarra Nomada">
-                <ul>
-                    <li>
-                        <h4>Nómada</h4>
-                    </li>
-                    <li>
-                        <a href="#">Ficha técnica</a>
-                    </li>
-                    <li>
-                        <a href="#">Comprar</a>
-                    </li>
-                </ul>
-            </article>
+                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/productos/paul.webp" class="card-img-top" alt="Guitarra Verde">
+                        <div class="card-body">
+                            <h5 class="card-title">Paulista</h5>
+                            <p class="card-text">
+                                Cuerpo de cáoba, muy sólido y resonante. Capsulas activas.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
+                    <div class="card"  style="width: 18rem;">
+                        <img src="./assets/productos/folk.webp" class="card-img-top" alt="Guitarra Verde">
+                        <div class="card-body">
+                            <h5 class="card-title">Druida</h5>
+                            <p class="card-text">
+                                Guitarra de estética mística, diseñada para ser ergonómica y fiable.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-4 my-4  justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/productos/nomad.webp" class="card-img-top" alt="Guitarra Verde">
+                        <div class="card-body">
+                            <h5 class="card-title">Nómada</h5>
+                            <p class="card-text">
+                                Guitarra asimetrica de estetica magnifica, equipada con pastillas EMG.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-4 my-4  justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/productos/bajo.webp" class="card-img-top" alt="Guitarra Verde">
+                        <div class="card-body">
+                            <h5 class="card-title">El Grinch</h5>
+                            <p class="card-text">
+                                Bajo eléctrico de 5 cuerdas con  mucho cuerpo, pastillas activas.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ficha técnica</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Fin espacio cards-->
 
         </section>
     </main>
 
-    <footer>
-        <section>
-            <a href="./index.html">Contacto</a>
-        </section>
-        <section>
-            <p>Copyright © 2025</p>
-        </section>
-        <section class="siguenos">
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <p class="mb-0">© 2025 Instrumentos Odín. Todos los derechos reservados.</p>
 
-            <div>
-                <p>Síguenos</p>
-            </div>
-            <div>
-                <a href="http://www.youtube.com">YouTube</a>
-                <a href="http://www.instagram.com">Instagram</a>
-                <a href="http://www.facebook.com">Facebook</a>
-            </div>
+          <p class="mb-0">Siguenos:</p>
+          <p class="mb-0">
+            <a href="https://facebook.com" class="text-white mx-2">Facebook</a> | 
+            <a href="https://twitter.com" class="text-white mx-2">Twitter</a> | 
+            <a href="https://instagram.com" class="text-white mx-2">Instagram</a>
+          </p>
+        </div>
+      </footer>
 
-
-
-        </section>
-    </footer>
-
-
+    <!-- Link JS de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
