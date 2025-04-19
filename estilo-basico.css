@@ -14,12 +14,13 @@ header h3{
     text-align: center;
 }
 
-
+/* 
 nav ul{
-    /* display: flex;
+    display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around; */
-}
+    justify-content: space-around; 
+} 
+*/
 
 nav ul li{
     list-style: none;
@@ -33,14 +34,14 @@ nav ul li a{
     
 }
 
-.container-img{
-    /* display: flex;
-    justify-content: space-around; */
-}
+/* .container-img{
+    display: flex;
+    justify-content: space-around;
+} */
 
-.img-pie{
-    /* width: 20%; */
-}
+/* .img-pie{
+    width: 20%;
+} */
 
 
 .producto{
