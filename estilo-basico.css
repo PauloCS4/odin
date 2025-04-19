@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(113, 112, 106);
+    background-color: rgb(217, 209, 165);
 }
 
 ul {
@@ -16,9 +16,9 @@ header h3{
 
 
 nav ul{
-    display: flex;
+    /* display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 nav ul li{
@@ -34,12 +34,12 @@ nav ul li a{
 }
 
 .container-img{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
 }
 
 .img-pie{
-    width: 20%;
+    /* width: 20%; */
 }
 
 
