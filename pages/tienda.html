@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Odín</title>
+    <!--Link CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- Google Fonts (Aclonica, Artifica)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Artifika&display=swap" rel="stylesheet">
+    <!-- Fin de Google fonts-->
+
+    <link href="../css/estilo.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid">
+
+        <div class="fuente-marca">
+            <h1 class="text-center">Odín</h1>
+            <h3 class="text-center">Guitarras y Bajos</h3>
+
+        </div>
+        <nav>
+            <ul class="nav justify-content-center nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link"  href="../index.html">Bienvenido</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link active" aria-current="page"  href="../pages/tienda.html">Tienda</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" href="../pages/soporte.html">Soporte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+
+            </ul>
+        </nav>
+        <section class="row">
+            <div class="col-sm-4"></div>
+            <!-- <img class="col-sm-3" src="./assets/marca-odin/gibson.png" alt="guitarra tipo gibson" class="img-pie"> -->
+            <img class="col-sm-4" src="../assets/marca-odin/mascota.png" alt="Logo vikingo con guitarra"
+                class="img-pie">
+            <!-- <img class="col-sm-3" src="./assets/marca-odin/fender.png" alt="Guitarra tipo fender" class="img-pie"> -->
+            <div class="col-sm-4"></div>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="container-fluid">
+            <div class="row text-center my-4">
+                <h2 class="display-3 fw-bold text-primary">
+                    Tienda
+                </h2>
+            </div>
+        </section>
+
+        <article class="row text-center my-4">
+           
+            <p class="text-muted">
+                Te invitamos a visitar nuestra tienda, aquí podrás probar cada instrumento con total libertad. Nuestro equipo de expertos está a tu disposición para asesorarte y resolver todas tus dudas. Además, contamos con una selección de accesorios y amplificadores de las mejores marcas. 
+            </p>
+       
+        </article>
+       
+
+        <div class="row">
+
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/carrusel/tienda1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/carrusel/tienda2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        
+
+        <section class="container-fluid mb-3">
+            <div class="row text-center my-4">
+                <h2 class="display-3 fw-bold text-primary">
+                    Ubicación
+                </h2>
+                <p class="text-muted">Estamos ubicados en Santiago de Chile, a pasos de plaza Italia. Es muy fácil llegar en metro, si vienes en vehiculo particular hay estacionamientos pagados bajo el hotel Crown Plaza</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-3"></div>
+            
+                <div class="col-sm-6 d-flex justify-content-center mb-3">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.4324719757647!2d-70.63897602446677!3d-33.43803757339441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59c81e42b5f%3A0xbf8b79593a9e088!2sCrown%20Plaza%20Chile!5e0!3m2!1ses-419!2scl!4v1742667733237!5m2!1ses-419!2scl"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="col-sm-3"></div>
+            </div>
+            
+        </section>
+
+        
+        
+
+        
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <p class="mb-0">© 2025 Instrumentos Odín. Todos los derechos reservados.</p>
+
+          <p class="mb-0">Siguenos en:</p>
+          <p class="mb-0">
+            <a href="https://facebook.com" class="text-white mx-2">Facebook</a> | 
+            <a href="https://twitter.com" class="text-white mx-2">Twitter</a> | 
+            <a href="https://instagram.com" class="text-white mx-2">Instagram</a>
+          </p>
+        </div>
+      </footer>
+
+    <!-- Link JS de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+</html>
