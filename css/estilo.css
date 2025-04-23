@@ -1,7 +1,19 @@
+body{
+    
+}
+
 .fuente-marca{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(35, 59, 138);
 
+}
+
+.titulo-naranja{
+    color: darkgoldenrod !important;
+}
+
+.texto-bajada{
+    font-family: 'Courier New', Courier, monospace;
 }
