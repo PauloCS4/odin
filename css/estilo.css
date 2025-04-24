@@ -50,7 +50,11 @@
     opacity: 1; /* Elimina la transparencia */
 }
 
-
+iframe {
+    max-width: 90%; /* Evita que el iframe sea más grande que su contenedor */
+    width: 100%; /* Se ajusta al tamaño del padre */
+    height: 300px; /* Mantiene la altura fija (puedes ajustarla) */
+}
 
 
 @media (min-width: 768px){
