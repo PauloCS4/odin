@@ -26,7 +26,8 @@
 }
 
 .texto-bajada{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
 }
 
 .aclonica{
@@ -40,6 +41,17 @@
 .escondida-side{
     display: none;
 }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px; /* Aumentar tamaño */
+    height: 50px;
+    opacity: 1; /* Elimina la transparencia */
+}
+
+
+
 
 @media (min-width: 768px){
     .escondida-side{
