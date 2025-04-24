@@ -1,15 +1,28 @@
 
-
-.fuente-marca{
+.fuente-odin{
     font-family: "Aclonica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(35, 59, 138);
+    color: rgb(47, 47, 179);
+}
+
+.fuente-marca{
+    font-family: "Aclonica", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(47, 47, 179);
 
 }
 
 .titulo-naranja{
     color: darkgoldenrod !important;
+}
+
+
+
+
+.inactivo{
+    color: rgb(196, 121, 23);
 }
 
 .texto-bajada{
@@ -18,4 +31,34 @@
 
 .aclonica{
     font-family: "Aclonica", sans-serif;
+}
+
+.custom-img{
+    max-width: 220px;
+}
+
+.escondida-side{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .escondida-side{
+        display: inline;
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .escondida-side{
+        width: 180px;
+    }
+    .custom-img{
+        width: 180px !important;
+    }
+
+    .div-bajada{
+        padding: 40px;
+    }
+
 }

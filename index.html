@@ -26,9 +26,9 @@
 
 <body>
     <header class="container-fluid">
-        <div class="fuente-marca">
-            <h1 class="text-center">Odín</h1>
-            <h3 class="text-center">Guitarras y Bajos</h3>
+        <div class="fuente-odin">
+            <h1 class="text-center display-3 display-lg-1">Odín</h1>
+            <h3 class="text-center display-6 display-lg-4">Guitarras y Bajos</h3>
         </div>
         
         <nav>
@@ -37,13 +37,13 @@
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class=" nav-item">
-                <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+                <a class="nav-link inactivo" href="./pages/tienda.html">Tienda</a>
             </li>
             <li class=" nav-item">
-                <a class="nav-link" href="./pages/soporte.html">Soporte</a>
+                <a class="nav-link inactivo" href="./pages/soporte.html">Soporte</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link inactivo" href="./pages/contacto.html">Contacto</a>
             </li>
         </ul>
     </nav>
@@ -54,19 +54,25 @@
 
         <section class="row">
 
-            <div class="col-12  text-center my-4">
+            <div class="col-12   text-center my-4">
                 <h2 class="display-3 fw-bold text-primary fuente-marca titulo-naranja">
                     Bienvenido
                 </h2>
             </div>
 
             <div class="col-12">
-                <div class=""></div>
-                <img class="w-50" src="./assets/marca-odin/mascota.png" alt="Vikingo">
-                <div class=""></div>
+                
+                <img class="escondida-side" src="./assets/marca-odin/gibson.png" alt="Guitarra tipo Gibson">
+
+                <img class="w-50 custom-img" src="./assets/marca-odin/mascota.png" alt="Vikingo">
+
+                <img class="escondida-side" src="./assets/marca-odin/fender.png" alt="Guitarra tipo Gibson">
+                
             </div>
 
-            <div class="col-12 container text-center">
+            <div class="col-0 col-lg-2"></div>
+
+            <div class="col-12  col-lg-8 container text-center div-bajada">
                 
                 <p class="mx-auto texto-bajada">
                     Desata tu pasión por el rock con nuestras guitarras eléctricas hechas a mano.
@@ -77,6 +83,8 @@
                 </p>
                 
             </div>
+
+            <div class="col-0 col-lg-2"></div>
 
         </section>
 
@@ -99,7 +107,7 @@
                 <div class="card border-0" style="width: 18rem;">
                     <img src="./assets/productos/grin.webp" class="card-img-top" alt="Guitarra Verde">
                     <div class="card-body">
-                        <h5 class="card-title aclonica">Duende Verde</h5>
+                        <h5 class="card-title aclonica">Duende</h5>
                         <p class="card-text">
                             Inspirada en el modelo SG de Gibson, pero con electronica moderna.
                         </p>
