@@ -26,141 +26,150 @@
 
 <body>
     <header class="container-fluid">
-        <div class="fuente-marca">
-            <h1 class="text-center">Odín</h1>
-            <h3 class="text-center">Guitarras y Bajos</h3>
-
+        <div class="fuente-odin">
+            <h1 class="text-center display-3 display-lg-1">Odín</h1>
+            <h3 class="text-center display-6 display-lg-4">Guitarras y Bajos</h3>
         </div>
         
         <nav>
-            <ul class="nav justify-content-center nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class=" nav-item">
-                    <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                </li>
-                <li class=" nav-item">
-                    <a class="nav-link" href="./pages/soporte.html">Soporte</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                </li>
-
-            </ul>
-        </nav>
-        <section class="row">
-            <div class="col-sm-4"></div>
-            <!-- <img class="col-sm-3" src="./assets/marca-odin/gibson.png" alt="guitarra tipo gibson" class="img-pie"> -->
-            <img class="col-sm-4" src="./assets/marca-odin/mascota.png" alt="Mascota de la marca, vikingo con guitarra">
-            <!-- <img class="col-sm-3" src="./assets/marca-odin/fender.png" alt="Guitarra tipo fender" class="img-pie"> -->
-            <div class="col-sm-4"></div>
-        </section>
+        <ul class="nav justify-content-center nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class=" nav-item">
+                <a class="nav-link inactivo" href="./pages/tienda.html">Tienda</a>
+            </li>
+            <li class=" nav-item">
+                <a class="nav-link inactivo" href="./pages/soporte.html">Soporte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link inactivo" href="./pages/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
 
     </header>
+    
     <main class="container-fluid text-center">
 
-        <div class="row text-center my-4">
-            <h2 class="display-3 fw-bold text-primary">
-                Bienvenido
-            </h2>
-            <!-- <p class="text-muted">Descubre lo mejor que tenemos para ti</p> -->
-        </div>
+        <section class="row">
 
-        <article class="row mt-4 fade-in">
-            <div class="col-sm-1"></div>
-            <p class="col-sm-10 fs-5">
-                Desata tu pasión por el rock con nuestras guitarras eléctricas hechas a mano.
-                Inspiradas en los modelos clásicos que hicieron historia, cada guitarra es una
-                obra maestra única, creada con precisión y pasión. Desde riffs poderosos hasta
-                solos emotivos, nuestras guitarras te permiten expresar tu estilo y conectar
-                con la esencia del rock.
-            </p>
-            <div class="col-sm-10 fs-5"></div>
-        </article>
+            <div class="col-12   text-center my-4">
+                <h2 class="display-3 fw-bold text-primary fuente-marca titulo-naranja">
+                    Bienvenido
+                </h2>
+            </div>
 
+            <div class="col-12">
+                
+                <img class="escondida-side" src="./assets/marca-odin/gibson.png" alt="Guitarra tipo Gibson">
+
+                <img class="w-50 custom-img" src="./assets/marca-odin/mascota.png" alt="Vikingo">
+
+                <img class="escondida-side" src="./assets/marca-odin/fender.png" alt="Guitarra tipo Gibson">
+                
+            </div>
+
+            <div class="col-0 col-lg-2"></div>
+
+            <div class="col-12  col-lg-8 container text-center div-bajada">
+                
+                <p class="mx-auto texto-bajada">
+                    Desata tu pasión por el rock con nuestras guitarras eléctricas hechas a mano.
+                    Inspiradas en los modelos clásicos que hicieron historia, cada guitarra es una
+                    obra maestra única, creada con precisión y pasión. Desde riffs poderosos hasta
+                    solos emotivos, nuestras guitarras te permiten expresar tu estilo y conectar
+                    con la esencia del rock.
+                </p>
+                
+            </div>
+
+            <div class="col-0 col-lg-2"></div>
+
+        </section>
+
+        <!-- Productos destacados -->
         <section class="container-fluid">
 
             <div class="row text-center my-4">
-                <h2 class="display-3 fw-bold text-primary">
-                    Productos destacados
+                <h2 class="display-3 fw-bold text-primary fuente-marca titulo-naranja">
+                    Destacados
                 </h2>
-                <!-- <p class="text-muted">Selección de los instrumentos más vendidos por la marca.</p> -->
+                <p class="text-muted">Selección de los instrumentos más vendidos.</p> 
+            </div>
+        </section>
+
+        <!--Espacio para los cards de productos-->
+        <section class="row justify-content-between">
+
+            <!--producto-1 -->
+            <div class="col-12 col-md-6 col-lg-4 my-4 d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./assets/productos/grin.webp" class="card-img-top" alt="Guitarra Verde">
+                    <div class="card-body">
+                        <h5 class="card-title aclonica">Duende</h5>
+                        <p class="card-text">
+                            Inspirada en el modelo SG de Gibson, pero con electronica moderna.
+                        </p>
+                        <a href="#" class="btn btn-success">Ficha técnica</a>
+                    </div>
+                </div>
             </div>
 
-            <!--Espacio para los cards de productos-->
-            <div class="row justify-content-between">
-
-                <!--producto-1 -->
-                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/productos/grin.webp" class="card-img-top" alt="Guitarra Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Duende Verde</h5>
-                            <p class="card-text">
-                                Inspirada en el modelo SG de Gibson, pero con electronica moderna.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ficha técnica</a>
-                        </div>
+            <div class="col-12 col-md-6 col-lg-4 my-4 d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./assets/productos/paul.webp" class="card-img-top" alt="Guitarra Verde">
+                    <div class="card-body">
+                        <h5 class="card-title aclonica">Paulina</h5>
+                        <p class="card-text">
+                            Cuerpo de cáoba sólido muy resonante. Incluye capsulas activas.
+                        </p>
+                        <a href="#" class="btn btn-success">Ficha técnica</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/productos/paul.webp" class="card-img-top" alt="Guitarra Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Paulina</h5>
-                            <p class="card-text">
-                                Cuerpo de cáoba sólido muy resonante. Incluye capsulas activas.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ficha técnica</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 my-4 justify-content-center">
-                    <div class="card"  style="width: 18rem;">
-                        <img src="./assets/productos/folk.webp" class="card-img-top" alt="Guitarra Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Druida</h5>
-                            <p class="card-text">
-                                Elegante guitarra acúsica, ergonómica y fiable.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ficha técnica</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-xl-4 my-4  justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/productos/nomad.webp" class="card-img-top" alt="Guitarra Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Nómada</h5>
-                            <p class="card-text">
-                                Asimetrica de estetica rockera,viene equipada con pastillas EMG.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ficha técnica</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-xl-4 my-4  justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/productos/bajo.webp" class="card-img-top" alt="Guitarra Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Grinch</h5>
-                            <p class="card-text">
-                                Bajo de 5 cuerdas con muchas configuraciones tonales.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ficha técnica</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            <!--Fin espacio cards-->
+
+            <div class="col-12 col-md-6 col-lg-4 my-4 d-flex justify-content-center">
+                <div class="card border-0"  style="width: 18rem;">
+                    <img src="./assets/productos/folk.webp" class="card-img-top" alt="Guitarra Verde">
+                    <div class="card-body">
+                        <h5 class="card-title aclonica">Druida</h5>
+                        <p class="card-text">
+                            Elegante guitarra acúsica, ergonómica y fiable.
+                        </p>
+                        <a href="#" class="btn btn-success">Ficha técnica</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 my-4 d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./assets/productos/nomad.webp" class="card-img-top" alt="Guitarra Verde">
+                    <div class="card-body">
+                        <h5 class="card-title aclonica">Nómada</h5>
+                        <p class="card-text">
+                            Asimetrica de estetica rockera,viene equipada con pastillas EMG.
+                        </p>
+                        <a href="#" class="btn btn-success">Ficha técnica</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4 my-4  d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="./assets/productos/bajo.webp" class="card-img-top" alt="Guitarra Verde">
+                    <div class="card-body">
+                        <h5 class="card-title aclonica">Grinch</h5>
+                        <p class="card-text">
+                            Bajo de 5 cuerdas con muchas configuraciones tonales.
+                        </p>
+                        <a href="#" class="btn btn-success">Ficha técnica</a>
+                    </div>
+                </div>
+            </div>
 
         </section>
+
     </main>
 
     <footer class="bg-dark text-white text-center py-4">
