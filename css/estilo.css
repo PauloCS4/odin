@@ -26,7 +26,8 @@
 }
 
 .texto-bajada{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
 }
 
 .aclonica{
@@ -40,6 +41,21 @@
 .escondida-side{
     display: none;
 }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px; /* Aumentar tamaño */
+    height: 50px;
+    opacity: 1; /* Elimina la transparencia */
+}
+
+iframe {
+    max-width: 90%; /* Evita que el iframe sea más grande que su contenedor */
+    width: 100%; /* Se ajusta al tamaño del padre */
+    height: 300px; /* Mantiene la altura fija (puedes ajustarla) */
+}
+
 
 @media (min-width: 768px){
     .escondida-side{
